@@ -1,0 +1,16 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.expense-item-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.expense-item-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
